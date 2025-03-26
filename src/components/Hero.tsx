@@ -199,7 +199,7 @@ const Hero = () => {
 
               <h4 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">
                 <TypeAnimation
-                  sequence={["Multimedia Strategist", 500]}
+                  sequence={["test", 500]}
                   wrapper="span"
                   speed={50}
                 />

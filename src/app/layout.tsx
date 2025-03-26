@@ -21,7 +21,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "ANIQI MEDIA - Creative Director & Multimedia Strategist",
-  description: "Portfolio for a Creative Director & Multimedia Strategist",
+  description: "aNiqi Media a Creative Director & Multimedia Strategist",
 };
 
 export default function RootLayout({
