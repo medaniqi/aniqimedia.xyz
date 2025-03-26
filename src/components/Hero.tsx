@@ -162,13 +162,13 @@ const Hero = () => {
           <div className="space-y-6 md:space-y-8 text-center lg:text-left">
             {/* Badge */}
             <motion.div
-              className="inline-block bg-amber-500/10 border border-amber-500/20 rounded-full px-4 py-1"
+              className="inline-block bg-amber-900/10 border border-amber-500/20 rounded-full px-4 py-1"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-amber-400 text-xs sm:text-sm font-medium tracking-wider uppercase">
-                Creative Professional
+              <span className="text-amber-500 text-xs sm:text-sm font-medium tracking-wider uppercase">
+                Hello! I Am MOHAMED HMIDI
               </span>
             </motion.div>
 
@@ -182,26 +182,16 @@ const Hero = () => {
                   sequence={[
                     "Creative Director",
                     1000,
-                    "Digital Designer",
+                    "Multimedia Strategist",
                     1000,
-                    "Creative Director",
-                    500,
+                    "Brand Builder",
+                    1000,
+                    "Marketing Expert",
+                    1000,
                   ]}
                   wrapper="span"
                   speed={50}
-                  repeat={1}
-                />
-              </h4>
-
-              <h3 className="text-white/90 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold">
-                &
-              </h3>
-
-              <h4 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-amber-500">
-                <TypeAnimation
-                  sequence={["test", 500]}
-                  wrapper="span"
-                  speed={50}
+                  repeat={3}
                 />
               </h4>
 
